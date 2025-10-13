@@ -1,1 +1,0 @@
-Alguien debe hacer la introduccion del tema, supomgo.
