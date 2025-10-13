@@ -4,7 +4,7 @@ En cada carpeta colocan el .ipynb y cuando este listo, lo marcan con X al final,
 
 Modelos faltantes:
 
-- [] KNN 
+- [X] KNN 
 - [] Bayes
 - [] LogRes (L1/L2)
 - [] Arboles
