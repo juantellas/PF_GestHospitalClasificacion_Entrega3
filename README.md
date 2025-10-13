@@ -51,6 +51,8 @@ git add .
 
 git commit -m "comentarios sobre los cambios"
 
+git push origin nombrederama
+
 luego voy yo reviso y apruebo
 
 luego, todos tenemos estos cambios
