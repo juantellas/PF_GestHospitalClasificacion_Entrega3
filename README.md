@@ -4,7 +4,7 @@ Aqui se tendra un seguimiento de las cosas que tenemos hechas de forma general, 
 
 -[] 1. Introduccion
 
--[X] 2. Analisis Exploratorio
+-[] 2. Analisis Exploratorio
 
 -[] 3. Modelado Benchmark
 
