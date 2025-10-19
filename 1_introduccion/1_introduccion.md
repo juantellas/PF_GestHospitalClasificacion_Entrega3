@@ -21,26 +21,26 @@ El análisis de este dataset busca **comprender los factores que influyen en la 
 
 ---
 
-### 🎯 **Objetivos del EDA**
+###  **Objetivos del EDA**
 
 **Objetivo General:**  
 Analizar de forma exploratoria los datos de pacientes diabéticos para identificar patrones, relaciones y variables relevantes asociadas con la readmisión hospitalaria.
 
 **Objetivos Específicos:**  
-- Examinar la estructura, calidad y consistencia del dataset (`diabetic_data.csv`).  
+- Examinar la estructura, calidad y consistencia del dataset (`diabetic_data.csv`).
 - Describir el perfil demográfico y clínico de los pacientes hospitalizados.  
 - Analizar la frecuencia y características de los reingresos (`readmitted`).  
 - Explorar posibles asociaciones entre variables clínicas, de tratamiento y la probabilidad de readmisión.
 ---
 
-### 🧩 **Hipótesis de Trabajo**
+###  **Hipótesis de Trabajo**
 
 - **H₀:** No existe relación significativa entre las variables clínicas (como `A1Cresult`, `num_lab_procedures`, `insulin`) y la readmisión hospitalaria.  
 - **H₁:** Algunas variables clínicas o de tratamiento sí se asocian significativamente con la readmisión hospitalaria (<30 días o >30 días).
 
 ---
 
-### 🧠 **Unidad de Análisis**
+###  **Unidad de Análisis**
 
 Cada fila del dataset representa **un encuentro hospitalario individual** de un paciente con diagnóstico de diabetes.  
 Un mismo paciente (`patient_nbr`) puede tener múltiples registros (`encounter_id`) si fue atendido en más de una ocasión durante el período de estudio.
@@ -54,13 +54,15 @@ Un mismo paciente (`patient_nbr`) puede tener múltiples registros (`encounter_i
 - El proceso de limpieza y preparación de los datos.  
 - Visualizaciones univariadas y multivariadas.  
 - Discusión de hallazgos clave y variables relevantes.  
+- Modelados Benchmark, con optimizacion, tuning y mejoras.  
+
 ---
 
 ## **4. Autoría y Contexto**
 
-- **Autoras:** Guirlessa De la Hoz & Mariangel Mercado  
-- **Curso:** Visualización de Datos  
-- **Fecha:** Agosto de 2025
+- **Autoras:** Guirlessa De la Hoz, Juan Aguirre,  Mariangel Mercado  
+- **Curso:** Machine Learning 
+- **Fecha:** Octubre de 2025
 
 ```{tableofcontents}
 
